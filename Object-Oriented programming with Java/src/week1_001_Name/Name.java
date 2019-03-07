@@ -1,4 +1,4 @@
-package week1;
+package week1_001_Name;
 
 public class Name
 {

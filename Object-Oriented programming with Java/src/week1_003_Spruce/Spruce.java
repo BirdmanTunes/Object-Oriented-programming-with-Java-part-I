@@ -1,4 +1,4 @@
-package week3;
+package week1_003_Spruce;
 
 public class Spruce
 {
