@@ -1,3 +1,5 @@
+package week1_019_AgeCheck;
+
 import java.util.Scanner;
 
 public class AgeCheck
