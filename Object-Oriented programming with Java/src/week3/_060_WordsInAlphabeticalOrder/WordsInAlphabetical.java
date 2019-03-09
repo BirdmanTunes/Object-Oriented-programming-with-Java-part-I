@@ -1,9 +1,10 @@
-package week3._58_RecurringWord;
+package week3._060_WordsInAlphabeticalOrder;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
-public class RecurringWord {
+public class WordsInAlphabetical {
 	
 	public static void main(String[] args) {
 		
@@ -15,11 +16,20 @@ public class RecurringWord {
 			System.out.print("Type a word: ");
 			String word = sc.nextLine();
 			
-			if (words.contains(word)) {
-				System.out.println("You gave the word " + word + " twice.");
+			if (word.isEmpty()) {
+				break;
 			} else {
 				words.add(word);
 			}
 		}
+		
+		Collections.sort(words);
+		
+		System.out.println("You typed the following words: ");
+		
+		for (String allNames: words) {
+			System.out.println(allNames);
+		}
 	}
+
 }
