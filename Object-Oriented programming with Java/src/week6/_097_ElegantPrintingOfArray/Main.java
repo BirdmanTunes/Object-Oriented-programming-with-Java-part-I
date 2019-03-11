@@ -1,4 +1,4 @@
-package week5._097_ElegantPrintingOfArray;
+package week6._097_ElegantPrintingOfArray;
 
 public class Main {
     public static void main(String[] args) {

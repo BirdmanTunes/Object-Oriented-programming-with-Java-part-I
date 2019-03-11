@@ -1,4 +1,4 @@
-package week5._098_ReversingAndCopyingOfArray;
+package week6._098_ReversingAndCopyingOfArray;
 
 import java.util.Arrays;
 

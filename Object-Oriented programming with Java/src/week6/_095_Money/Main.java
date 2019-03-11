@@ -1,4 +1,4 @@
-package week5._095_Money;
+package week6._095_Money;
 
 public class Main {
 

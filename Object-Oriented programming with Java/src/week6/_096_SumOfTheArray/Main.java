@@ -1,4 +1,4 @@
-package week5._096_SumOfTheArray;
+package week6._096_SumOfTheArray;
 
 public class Main {
     public static void main(String[] args) {
